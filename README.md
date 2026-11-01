@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **本仓库是他人的 Fork，用于实验，非官方版本（This repo is a third-party fork for experiments, not an official release）。**
+>
+> - **上游项目**：[YizhengWw/HachimoDock](https://github.com/YizhengWw/HachimoDock)。本仓库是该项目的派生副本，**仅用于个人实验与开发验证**；它不是官方发布，与原作者之间不存在隶属、合作或背书关系，其中的任何改动均未经原作者审核。
+> - **同步基线**：上游 `main` 的提交 `b72fce8`（客户端 0.1.168 / 固件 0.7.103-p4-r2）。本仓库当前内容与该提交一致，实验性改动尚未合入；后续每项改动都会在提交记录中明确标注修改内容与本仓库归属。
+> - **官方下载与文档**：请一律以上游 [Releases](https://github.com/YizhengWw/HachimoDock/releases/latest)、上游 README 与 [硬件复刻页面](https://oshwhub.com/eda_gqvzlprk/project_cnbmkbjc#3-%E7%A1%AC%E4%BB%B6%E5%A4%8D%E5%88%BB) 为准。本仓库不提供官方安装包、不承担设备损坏或数据丢失责任，请勿把这里的构建产物当作官方版本使用或分发。
+> - **反馈渠道**：本仓库实验改动引起的问题请提到本仓库，**不要**发给上游作者，以免用未采纳的实验代码消耗原作者精力。
+> - **许可证不变**：上游的[非商业源码可见许可](LICENSE)继续适用于本仓库。再分发须保留许可证、版权与第三方声明，标明修改事实，且不得暗示为官方版本；项目名称与标识不因本仓库授予任何品牌或背书权利。详见 [License](#license) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
 <div align="center">
   <img src="assets/hachimodock-mark.png" width="112" alt="HachimoDock（哈基米机）logo" />
   <h1>HachimoDock（哈基米机）</h1>
@@ -282,7 +291,12 @@ v3 的 24 MHz 显示修复已在实机确认恢复宠物动画；本版本按键
 
 ### 怎么反馈问题或参与贡献？
 
-可以在 GitHub 提 Issue 或 Discussion。硬件复刻相关问题建议同时参考 [OSHWHub 硬件端页面](https://oshwhub.com/eda_gqvzlprk/project_cnbmkbjc#3-%E7%A1%AC%E4%BB%B6%E5%A4%8D%E5%88%BB)。
+本仓库是实验性 Fork，反馈渠道请按问题来源区分：
+
+- **本仓库实验改动相关的问题**（本仓库独有的改动、构建失败、实验特性）：请提到[本仓库 Issues](https://github.com/xdrshjr/HajimiPet-DEV/issues)，并注明涉及的提交。
+- **上游原有功能的问题**（与实验改动无关的原始行为）：请到[上游仓库](https://github.com/YizhengWw/HachimoDock)提 Issue 或 Discussion，这样才可能被原作者看到并修复。
+
+硬件复刻相关问题建议同时参考 [OSHWHub 硬件端页面](https://oshwhub.com/eda_gqvzlprk/project_cnbmkbjc#3-%E7%A1%AC%E4%BB%B6%E5%A4%8D%E5%88%BB)。请不要把本仓库的实验代码当作上游已知问题反馈。
 
 ## 下载完整性
 

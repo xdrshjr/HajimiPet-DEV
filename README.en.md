@@ -1,5 +1,14 @@
 # HachimoDock
 
+> [!IMPORTANT]
+> **This repository is a third-party fork for experiments — not an official release.**
+>
+> - **Upstream project**: [YizhengWw/HachimoDock](https://github.com/YizhengWw/HachimoDock). This repository is a derivative copy used **solely for personal experiments and development validation**. It is not an official release, has no affiliation, partnership or endorsement relationship with the original author, and none of its changes have been reviewed by upstream.
+> - **Sync baseline**: upstream `main` at commit `b72fce8` (desktop 0.1.168 / firmware 0.7.103-p4-r2). The contents currently match that commit and no experimental changes have been merged yet; every later change will be identified in the commit history together with this fork's ownership.
+> - **Official downloads and documentation**: always use the upstream [Releases](https://github.com/YizhengWw/HachimoDock/releases/latest), upstream README and the [hardware page](https://oshwhub.com/eda_gqvzlprk/project_cnbmkbjc#3-%E7%A1%AC%E4%BB%B6%E5%A4%8D%E5%88%BB). This repository ships no official installers and accepts no liability for damaged hardware or lost data. Do not use or redistribute artifacts from here as official builds.
+> - **Reporting issues**: problems caused by this fork's experimental changes belong in [this repository's issues](https://github.com/xdrshjr/HajimiPet-DEV/issues), **not** with the upstream author, so unadopted experimental code does not consume their time.
+> - **License unchanged**: the upstream [non-commercial source-available license](LICENSE) continues to apply here. Redistribution must keep the license, copyright and third-party notices, identify modifications, and must not imply an official release. No branding or endorsement rights in the project name or marks are granted by this repository. See [License](#license-and-notices) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 [简体中文 · Product gallery](README.md) · [Downloads](https://github.com/YizhengWw/HachimoDock/releases)
 
 HachimoDock turns Agent activity into a desktop companion: pet animations, conversation bubbles, voice dictation and interactive components on an ESP32-P4 display. Pet Manager supports macOS and Windows and integrates with agents including ChatGPT (Codex), Claude, OpenClaw, MiMoCode and WorkBuddy.
